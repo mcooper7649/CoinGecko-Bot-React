@@ -1,7 +1,9 @@
 function Features() {
   return (
     <div className="container features">
-      <h1>CoinGecko Price Bot Features</h1>
+      <h1>CoinGecko Price Bot</h1>
+      <img src="iphone_mock2.png" alt="" />
+      <h1>Features</h1>
       <hr className="border border-danger border-2 opacity-50"></hr>
       <div className="container-fluid">
         <div className="row feature-specs">
@@ -11,8 +13,8 @@ function Features() {
               <hr />
             </div>
             <p>Freemium</p>
-            <p>Free to play around</p>
-            <p>Pro for Traders</p>
+            <p>Free Basic Functionality</p>
+            <p>Professional for Traders</p>
           </div>
           <div className="col-lg-4 col-md-12 col-sm-12 text-col">
             <h3 className="feature-title">Notifications</h3>
