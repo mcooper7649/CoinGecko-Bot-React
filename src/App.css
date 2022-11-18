@@ -235,6 +235,25 @@ h1 {
   padding: 25px;
 }
 
+.copyright {
+  font-size: 18px;
+  font-weight: 900;
+  font-style: oblique;
+  background: linear-gradient(to right, #21def3, #0b163f, #ac8888, #405dde);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.footer .brand {
+  width: 250px;
+  padding: 20px;
+}
+
+.footer-items {
+  place-content: space-around;
+}
+
 @media (max-width: 600px) {
   h1 {
     font-size: x-large;
@@ -254,6 +273,7 @@ h1 {
   }
 
   .footer {
+    display: flex;
     font-size: x-small;
   }
 }
