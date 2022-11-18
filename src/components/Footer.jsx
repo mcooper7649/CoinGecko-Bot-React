@@ -11,8 +11,8 @@ const Footer = () => {
               <use xlinkHref="#bootstrap"></use>
             </svg>
           </a>
-          <span class="mb-3 mb-md-0 text-muted">
-            © 2022 Bots and More | By MyCodeDojo
+          <span class="mb-3 mb-md-0">
+            © 2022 Crypto Price Bot | By MyCodeDojo
           </span>
         </div>
       </footer>

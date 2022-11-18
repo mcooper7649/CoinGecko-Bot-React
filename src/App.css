@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+  background: radial-gradient(#e66465, #fff);
+}
+
+html {
+  background-color: #000;
 }
 
 a {
@@ -8,6 +13,15 @@ a {
 
 hr {
   margin: 3%;
+}
+
+h2 {
+  font-weight: bold;
+  font-style: oblique;
+  text-shadow: 2px 2px
+    linear-gradient(to right, #21def3, #0b163f, #ac8888, #405dde);
+  font-size: 36px;
+  margin: 100px 0px 0px 0px;
 }
 
 .features {
@@ -19,9 +33,12 @@ hr {
 }
 
 h1 {
-  color: #ef476f;
+  font-family: 'Franklin Gothic Medium', 'Arial ', Arial, sans-serif;
   padding: 3%;
   font-size: 64px;
+  background: linear-gradient(to right, #21def3, #0b163f, #ac8888, #405dde);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
 }
 
 .navbar {
@@ -30,15 +47,64 @@ h1 {
   width: 100%;
   z-index: 1;
   margin-bottom: 3%;
-  padding: 2% 1%;
+  background-color: #06d6a0;
+}
+
+.logo {
+  width: 8em;
 }
 
 .navbar-brand {
-  color: #ef476f;
+  color: #f2a900;
+  font-weight: 900;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.navbar-brand:hover {
+  color: #f2f2f2;
 }
 
 .nav-link {
-  color: #06d6a0;
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-weight: 400;
+}
+
+.nav-link:hover {
+  color: #f2f2f2;
+}
+
+.card {
+  width: 600px;
+  display: flex;
+  padding: 20px 10px;
+  margin: 0px 20px;
+}
+
+.card-wrapper {
+  display: flex;
+}
+
+.card-body {
+  background-color: #fff;
+  color: rgb(27, 27, 27);
+  font-weight: 500;
+}
+
+.card-text {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+  text-align: left;
+  font-size: smaller;
+}
+
+.card-body img {
+  border-radius: 3%;
+  margin-top: 30px;
 }
 
 .pricing {
@@ -143,13 +209,13 @@ h1 {
 }
 .pricingTable:hover .link a {
   color: #fff;
-  background: #06d6a0;
-  border: 1px solid #06d6a0;
+  background: #f2a900;
+  border: 1px solid #f2a900;
 }
 .pricingTable:hover .pricing_heading:after,
 .pricingTable:hover .title,
 .pricingTable:hover .value {
-  background: #06d6a0;
+  background: #f2a900;
 }
 @media only screen and (max-width: 990px) {
   .pricingTable {

@@ -1,8 +1,12 @@
+import { motion } from 'framer-motion';
+
 function Pricing() {
   return (
     <div className="container pricing">
-      <h1>Pricing</h1>
-      <hr className="border border-danger border-2 opacity-50"></hr>
+      <motion.h2 animate={{ x: 10 }} whileHover={{ scale: 1.01 }}>
+        Current Price Plans
+      </motion.h2>
+      <hr className="border border-2 opacity-50"></hr>
 
       <div className="row pricingCont">
         <div className="col-md-5 col-sm-6">
@@ -66,7 +70,7 @@ function Pricing() {
                 <li>Support Via Email for Features or Setup</li>
               </ul>
               <div className="link">
-                <a href="#">Coming Soon</a>
+                <a href="#/">Coming Soon</a>
               </div>
             </div>
           </div>
