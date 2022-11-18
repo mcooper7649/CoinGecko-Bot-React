@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background: radial-gradient(#e66465, #fff);
+  background: radial-gradient(#e7c5a7, #fff);
 }
 
 html {
@@ -9,6 +9,10 @@ html {
 
 a {
   text-decoration: none;
+}
+
+main-img {
+  width: 390px;
 }
 
 hr {
@@ -25,7 +29,7 @@ h2 {
 }
 
 .features {
-  padding: 10% 0% 5% 0%;
+  padding: 0% 0% 5% 0%;
 }
 
 .feature-specs {
@@ -39,10 +43,10 @@ h1 {
   background: linear-gradient(to right, #21def3, #0b163f, #ac8888, #405dde);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  background-clip: text;
 }
 
 .navbar {
-  position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%;
   z-index: 1;
@@ -225,4 +229,27 @@ h1 {
 
 .pricingCont {
   justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+  h1 {
+    font-size: x-large;
+  }
+
+  img {
+    width: -webkit-fill-available;
+  }
+
+  .card-wrapper {
+    display: grid;
+    width: -webkit-fill-available;
+  }
+
+  .card {
+    width: -webkit-fill-available;
+  }
+
+  .footer {
+    font-size: x-small;
+  }
 }

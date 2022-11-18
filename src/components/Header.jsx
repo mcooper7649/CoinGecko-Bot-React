@@ -16,6 +16,7 @@ const Header = () => {
               className="logo"
             />
           </motion.a>
+
           <button
             className="navbar-toggler"
             type="button"

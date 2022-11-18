@@ -12,7 +12,7 @@ function Features() {
       </motion.h1>
       <hr className="border border-2 opacity-50"></hr>
 
-      <img src="iphone_mock2.png" alt="" />
+      <img className="main-img" src="iphone_mock2.png" alt="" />
       <motion.h2 whileHover={{ scale: 1.05 }} className="text-uppercase">
         Features
       </motion.h2>
