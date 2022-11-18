@@ -56,7 +56,7 @@ function Pricing() {
               <h3 className="title">Pricing Plan</h3>
               <span className="value">
                 $6.99
-                <span className="month">per month</span>
+                <span className="month">One-Time</span>
               </span>
             </div>
             <div className="content">
