@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 
 function Pricing() {
   return (
-    <div className="container pricing">
+    <div id="#Pricing" className="container pricing">
       <motion.h2 animate={{ x: 10 }} whileHover={{ scale: 1.01 }}>
         Current Price Plans
       </motion.h2>

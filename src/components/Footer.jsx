@@ -1,17 +1,17 @@
 const Footer = () => {
   return (
-    <div className="container">
-      <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-        <div class="d-flex align-items-center">
+    <div className="footer container">
+      <footer className="d-flex flex-wrap justify-content-between align-items-center py-4 my-4 border-top">
+        <div className="d-flex align-items-center">
           <a
             href="/"
-            class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
+            className="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1"
           >
-            <svg class="bi" width="30" height="24">
+            <svg className="bi" width="30" height="24">
               <use xlinkHref="#bootstrap"></use>
             </svg>
           </a>
-          <span class="footer mb-3 mb-md-0">
+          <span className=" mb-3 mb-md-0">
             © 2022 Crypto Price Bot | By MyCodeDojo
           </span>
         </div>
