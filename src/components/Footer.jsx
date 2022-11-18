@@ -6,6 +6,7 @@ const Footer = () => {
           <span className="row mb-3 mb-md-0 copyright">
             © 2022 Crypto Price Bot
           </span>
+          <span></span>
           <img className="brand" src="bw-brand.webp" alt="developer" />
         </div>
       </footer>

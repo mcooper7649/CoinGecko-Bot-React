@@ -237,8 +237,6 @@ h1 {
 
 .copyright {
   font-size: 18px;
-  font-weight: 900;
-  font-style: oblique;
   background: linear-gradient(to right, #21def3, #0b163f, #ac8888, #405dde);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
